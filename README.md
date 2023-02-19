@@ -15,7 +15,8 @@ You should:
 2. Set up a local development environment. We recommend using the Twilio Python library but you may work in whatever language you feel most comfortable with.
 3. Write a script to send reminders via SMS using Twilio's Programmable SMS API. The script should query the database for when patients need to take certain medicines and send a reminder message to the customer's phone number using the Twilio API. The message should include the medicine name and dosage. 
 
-Optionally, but suggested:
+Optional, but suggested:
+
 4. Translate the CSV into a more functional database using PostgreSQL, MongoDB, etc. 
 
 5. Create a web portal where hospital staff can access the database, add patients, edit medicine and dosage amounts, etc. 
