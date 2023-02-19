@@ -16,8 +16,13 @@ You should:
 
 Optionally, but suggested:
 4. Translate the CSV into a more functional database using PostgreSQL, MongoDB, etc. 
+
 5. Create a web portal where hospital staff can access the database, add patients, edit medicine and dosage amounts, etc. 
+
 6. Set up a webhook to handle customer responses. When a customer replies to the reminder message, the webhook should update the database with the customer's response. Examples of customer responses can be "Yes" or "My prescription is out."
+
 7. Add the ability for hospital staff to attribute two different medicines to a patient. If the patient needs to take two different medicines on the same day, they should only receive one message.
+
 8. Add the ability for hospital staff to attribute up to a dozen different medicines to a patient.
+
 9. Any other features you think may be useful. Explicitly enumerate these at the top of our ReadMe along with brief explanations of why you implemented them. 
